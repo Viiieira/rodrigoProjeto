@@ -133,6 +133,11 @@ header .tabs {
     align-items: center;
 }
 
+.nav__socials {
+    display: flex;
+    gap: 1rem;
+}
+
 .nav__languages {
     font-size: 1.125rem;
     font-weight: 500;
