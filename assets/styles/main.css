@@ -104,6 +104,10 @@ body {
     line-height: 1.6;
 }
 
+html { scroll-behavior: smooth; }
+
+a { text-decoration: none; }
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -151,7 +155,7 @@ footer {
 }
 
 section {
-    width: 90%;
+    width: 80%;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
@@ -167,7 +171,26 @@ h1 {
 #aplicacao {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
+    gap: 3rem;
 }
 
-#aplicacao :last-child { flex-basis: calc(100% / 3); }
-#aplicacao :first-child { flex-grow: 1; }
+#sobre p {
+    text-indent: 2rem;
+}
+
+#tarifarios .card {
+    width: 350px;
+}
+
+#rotas .flex-parent {
+    gap: 3rem;
+}
+
+#rotas .card {
+    width: 100%;
+}
+
+#aplicacao p {
+    text-indent: 2rem;
+}
